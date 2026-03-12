@@ -70,11 +70,11 @@ h3 {
 a {
   position: absolute;
   font-family: "BIZ UDGothic", sans-serif;
-  font-style: italic;
-  font-size: 30px;
+  font-style: normal;
+  font-size: 25px;
   text-decoration: none;
   margin-left: 30px;
-  line-height: 1.5;
+  line-height: 3;
   z-index: 9000;
   color: whitesmoke;
 
