@@ -74,30 +74,24 @@ a {
   font-size: 25px;
   text-decoration: none;
   margin-left: 30px;
-  line-height: 3;
   z-index: 9000;
   color: whitesmoke;
-  padding: 10px;
 }
 
 a[href^="/index.html"]:hover {
   background-color: rgb(255, 116, 41, 0.5);
-  padding: 10px;
 }
 
 a[href^="/cat2.html"]:hover {
   background-color: rgb(19, 127, 216, 0.5);
-  padding: 10px;
 }
 
 a[href^="/cat3.html"]:hover {
   background-color: rgb(131, 243, 111, 0.5);
-  padding: 10px;
 }
 
 a[href^="/cat4.html"]:hover {
   background-color: rgb(243, 111, 192, 0.5);
-  padding: 10px;
 }
 
 .audio-container {
