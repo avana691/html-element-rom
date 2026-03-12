@@ -85,9 +85,38 @@ a {
   position: fixed;
 }
 
+.audio1:hover, .audio2:hover, .audio3:hover, .audio4:hover, .audio5:hover, .audio6:hover, .audio7:hover, .audio8:hover, .audio9:hover, .audio10:hover, .audio11:hover, .audio12:hover, .audio13:hover, .audio14:hover, .audio15:hover, .audio16:hover, .audio17:hover, .audio18:hover, .audio19:hover, .audio20:hover {
+  margin-top: 20px;
+  transition: all 1s ease;
+}
+
 .audio1, .audio2, .audio3, .audio4, .audio5 {
   position: absolute;
   background-color: rgb(255, 116, 41);
+  border-radius: 5px;
+  border: black 4pt solid;
+  transition: all 1s ease;
+}
+
+.audio6, .audio7, .audio8, .audio9, .audio10 {
+  position: absolute;
+  background-color: rgb(19, 127, 216);
+  border-radius: 5px;
+  border: black 4pt solid;
+  transition: all 1s ease;
+}
+
+.audio11, .audio12, .audio13, .audio14, .audio15 {
+  position: absolute;
+  background-color: rgb(131, 243, 111);
+  border-radius: 5px;
+  border: black 4pt solid;
+  transition: all 1s ease;
+}
+
+.audio16, .audio17, .audio18, .audio19, .audio20 {
+  position: absolute;
+  background-color: rgb(243, 111, 192);
   border-radius: 5px;
   border: black 4pt solid;
   transition: all 1s ease;
@@ -101,22 +130,12 @@ a {
   margin-top: 150px;
 }
 
-.audio1:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
 .audio2, .audio7, .audio12, .audio17 {
   width: 900px;
   height: 900px;
   margin-left: 350px;
   z-index: 200;
   margin-top: 250px;
-}
-
-.audio2:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
 }
 
 .audio3, .audio8, .audio13, .audio18 {
@@ -127,11 +146,6 @@ a {
   margin-top: 350px;
 }
 
-.audio3:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
 .audio4, .audio9, .audio14, .audio19 {
   width: 1150px;
   height: 1150px;
@@ -140,204 +154,10 @@ a {
   margin-top: 450px;
 }
 
-.audio4:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
 .audio5, .audio10, .audio15, .audio20 {
   width: 1300px;
   height: 1300px;
   margin-left: 150px;
   z-index: 2000;
   margin-top: 550px;
-}
-
-.audio5:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
-.audio6, .audio7, .audio8, .audio9, .audio10 {
-  position: absolute;
-  background-color: rgb(19, 127, 216);
-  border-radius: 5px;
-  border: black 4pt solid;
-  transition: all 1s ease;
-}
-
-.audio6 {
-  position: absolute;
-  width: 750px;
-  height: 750px;
-  margin-left: 420px;
-  z-index: -1000;
-  margin-top: 150px;
-}
-
-.audio6:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
-.audio7 {
-  position: absolute;
-  width: 900px;
-  height: 900px;
-  background-color: rgb(19, 127, 216);
-  margin-left: 350px;
-  z-index: 200;
-  margin-top: 250px;
-  border-radius: 5px;
-  border: black 4pt solid;
-  transition: all 1s ease;
-}
-
-.audio7:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
-.audio8 {
-  position: absolute;
-  width: 1000px;
-  height: 1000px;
-  background-color: rgb(19, 127, 216);
-  margin-left: 300px;
-  z-index: 600;
-  margin-top: 350px;
-  border-radius: 5px;
-  border: black 4pt solid;
-  transition: all 1s ease;
-}
-
-.audio8:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
-.audio9 {
-  position: absolute;
-  width: 1150px;
-  height: 1150px;
-  background-color: rgb(19, 127, 216);
-  margin-left: 220px;
-  z-index: 1000;
-  margin-top: 450px;
-  border-radius: 5px;
-  border: black 4pt solid;
-  transition: all 1s ease;
-}
-
-.audio9:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
-.audio10 {
-  position: absolute;
-  width: 1300px;
-  height: 1300px;
-  background-color: rgb(19, 127, 216);
-  margin-left: 150px;
-  z-index: 2000;
-  margin-top: 550px;
-  border-radius: 5px;
-  border: black 4pt solid;
-  transition: all 1s ease;
-}
-
-.audio10:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
-.audio11 {
-  position: absolute;
-  width: 750px;
-  height: 750px;
-  background-color: rgb(255, 116, 41);
-  margin-left: 420px;
-  z-index: -1000;
-  margin-top: 150px;
-  border-radius: 5px;
-  border: black 4pt solid;
-  transition: all 1s ease;
-}
-
-.audio11:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
-.audio12 {
-  position: absolute;
-  width: 900px;
-  height: 900px;
-  background-color: rgb(255, 116, 41);
-  margin-left: 350px;
-  z-index: 200;
-  margin-top: 250px;
-  border-radius: 5px;
-  border: black 4pt solid;
-  transition: all 1s ease;
-}
-
-.audio12:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
-.audio13 {
-  position: absolute;
-  width: 1000px;
-  height: 1000px;
-  background-color: rgb(255, 116, 41);
-  margin-left: 300px;
-  z-index: 600;
-  margin-top: 350px;
-  border-radius: 5px;
-  border: black 4pt solid;
-  transition: all 1s ease;
-}
-
-.audio13:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
-.audio14 {
-  position: absolute;
-  width: 1150px;
-  height: 1150px;
-  background-color: rgb(255, 116, 41);
-  margin-left: 220px;
-  z-index: 1000;
-  margin-top: 450px;
-  border-radius: 5px;
-  border: black 4pt solid;
-  transition: all 1s ease;
-}
-
-.audio14:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
-.audio15 {
-  position: absolute;
-  width: 1300px;
-  height: 1300px;
-  background-color: rgb(255, 116, 41);
-  margin-left: 150px;
-  z-index: 2000;
-  margin-top: 550px;
-  border-radius: 5px;
-  border: black 4pt solid;
-  transition: all 1s ease;
-}
-
-.audio15:hover {
-  margin-top: 20px;
-  transition: all 1s ease;
 }
