@@ -68,7 +68,7 @@ h3 {
 }
 
 a {
-  position: fixed;
+  position: sticky;
   font-family: "BIZ UDGothic", sans-serif;
   font-style: normal;
   font-size: 25px;
@@ -76,22 +76,49 @@ a {
   margin-left: 30px;
   z-index: 9000;
   color: whitesmoke;
+  padding: 5px;
+  border: black 2pt solid;
+  border-radius: 5px;
+  margin: 25px;
 }
 
-a[href^="/index.html"]:hover {
-  background-color: rgb(255, 116, 41, 0.5);
+a[href^="index.html"] {
+  background-color: rgb(255, 116, 41, 0.8);
+
 }
 
-a[href^="/cat2.html"]:hover {
-  background-color: rgb(19, 127, 216, 0.5);
+a[href^="cat2.html"] {
+  background-color: rgb(18, 156, 215, 0.5);
+
 }
 
-a[href^="/cat3.html"]:hover {
+a[href^="cat3.html"]{
   background-color: rgb(131, 243, 111, 0.5);
 }
 
-a[href^="/cat4.html"]:hover {
+a[href^="cat4.html"] {
   background-color: rgb(243, 111, 192, 0.5);
+}
+
+a[href^="index.html"]:hover {
+  background-color: rgb(255, 116, 41);
+  padding: 10px;
+
+}
+
+a[href^="cat2.html"]:hover {
+  background-color: rgb(18, 156, 215);
+  padding: 10px;
+}
+
+a[href^="cat3.html"]:hover {
+  background-color: rgb(131, 243, 111);
+  padding: 10px;
+}
+
+a[href^="cat4.html"]:hover {
+  background-color: rgb(243, 111, 192);
+  padding: 10px;
 }
 
 .audio-container {
@@ -113,7 +140,7 @@ a[href^="/cat4.html"]:hover {
 
 .audio6, .audio7, .audio8, .audio9, .audio10 {
   position: absolute;
-  background-color: rgb(19, 127, 216);
+  background-color: rgb(18, 156, 215);
   border-radius: 5px;
   border: black 4pt solid;
   transition: all 1s ease;
