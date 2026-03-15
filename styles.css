@@ -68,7 +68,6 @@ h3 {
 }
 
 a {
-  position: sticky;
   font-family: "BIZ UDGothic", sans-serif;
   font-style: normal;
   font-size: 25px;
@@ -79,7 +78,7 @@ a {
   padding: 5px;
   border: black 2pt solid;
   border-radius: 5px;
-  margin: 25px;
+  margin-bottom: 50px;
 }
 
 a[href^="index.html"] {
@@ -88,7 +87,7 @@ a[href^="index.html"] {
 }
 
 a[href^="cat2.html"] {
-  background-color: rgb(18, 156, 215, 0.5);
+  background-color: rgb(49, 192, 235, 0.5);
 
 }
 
@@ -107,12 +106,12 @@ a[href^="index.html"]:hover {
 }
 
 a[href^="cat2.html"]:hover {
-  background-color: rgb(18, 156, 215);
+  background-color: rgb(49, 192, 235);
   padding: 10px;
 }
 
 a[href^="cat3.html"]:hover {
-  background-color: rgb(131, 243, 111);
+  background-color: #A2C743;
   padding: 10px;
 }
 
@@ -140,7 +139,7 @@ a[href^="cat4.html"]:hover {
 
 .audio6, .audio7, .audio8, .audio9, .audio10 {
   position: absolute;
-  background-color: rgb(18, 156, 215);
+  background-color: rgb(21, 191, 243);
   border-radius: 5px;
   border: black 4pt solid;
   transition: all 1s ease;
@@ -148,7 +147,7 @@ a[href^="cat4.html"]:hover {
 
 .audio11, .audio12, .audio13, .audio14, .audio15 {
   position: absolute;
-  background-color: rgb(131, 243, 111);
+  background-color: #A2C743;
   border-radius: 5px;
   border: black 4pt solid;
   transition: all 1s ease;
@@ -167,7 +166,7 @@ a[href^="cat4.html"]:hover {
   height: 750px;
   margin-left: 420px;
   z-index: -1000;
-  margin-top: 150px;
+  margin-top: 125px;
 }
 
 .audio2, .audio7, .audio12, .audio17 {
@@ -175,7 +174,7 @@ a[href^="cat4.html"]:hover {
   height: 900px;
   margin-left: 350px;
   z-index: 200;
-  margin-top: 250px;
+  margin-top: 225px;
 }
 
 .audio3, .audio8, .audio13, .audio18 {
@@ -183,7 +182,7 @@ a[href^="cat4.html"]:hover {
   height: 1000px;
   margin-left: 300px;
   z-index: 600;
-  margin-top: 350px;
+  margin-top: 325px;
 }
 
 .audio4, .audio9, .audio14, .audio19 {
@@ -191,7 +190,7 @@ a[href^="cat4.html"]:hover {
   height: 1150px;
   margin-left: 220px;
   z-index: 1000;
-  margin-top: 450px;
+  margin-top: 425px;
 }
 
 .audio5, .audio10, .audio15, .audio20 {
@@ -199,5 +198,5 @@ a[href^="cat4.html"]:hover {
   height: 1300px;
   margin-left: 150px;
   z-index: 2000;
-  margin-top: 550px;
+  margin-top: 525px;
 }
