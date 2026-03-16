@@ -82,7 +82,7 @@ a {
 }
 
 a[href^="index.html"] {
-  background-color: rgb(255, 116, 41, 0.8);
+  background-color: #ff7429cc;
 
 }
 
@@ -100,7 +100,7 @@ a[href^="cat4.html"] {
 }
 
 a[href^="index.html"]:hover {
-  background-color: rgb(255, 116, 41);
+  background-color: #ff7429;
   padding: 10px;
 
 }
