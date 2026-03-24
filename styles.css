@@ -23,7 +23,7 @@ body {
     background-color: #7a62b6;
     margin: 0;
     padding: 0;
-    height: 100%;      /* Sets the height to the full viewport height */
+    height: 100vh;      /* Sets the height to the full viewport height */
     width: 100%;       /* Sets the width to the full viewport width */
     overflow: hidden;  /* Prevents all horizontal and vertical scrolling */
     margin-top: 10px;
@@ -38,42 +38,18 @@ h1 {
     font-weight: 800;
     letter-spacing: -0.5px;
     padding: 0;
-    z-index: -1000;
-}
-
-h2 {
-  position: fixed;
-  color: whitesmoke;
-  font-family: "BIZ UDGothic", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: -0.5px;
-  font-size: 30px;
-  margin-top: 50px;
-  margin-left: 450px;
-  z-index: -1000;
-}
-
-h3 {
-  position: fixed;
-  color: whitesmoke;
-  font-family: "BIZ UDGothic", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: -0.5px;
-  font-size: 30px;
-  margin-left: 800px;
-  margin-top: 130px;
-  z-index: -1000;
+    z-index: 100;
+    position: relative;
 }
 
 a {
+  position: relative;
   font-family: "BIZ UDGothic", sans-serif;
   font-style: normal;
   font-size: 25px;
   text-decoration: none;
   margin-left: 30px;
-  z-index: -9000;
+  z-index: 1500;
   color: whitesmoke;
   padding: 5px;
   border: black 2pt solid;
@@ -82,21 +58,20 @@ a {
 }
 
 a[href^="index.html"] {
-  background-color: #ff7429cc;
-
+  background-color: rgba(255, 116, 41, 0.4);
 }
 
 a[href^="cat2.html"] {
-  background-color: rgb(49, 192, 235, 0.5);
+  background-color: rgb(49, 192, 235, 0.4);
 
 }
 
 a[href^="cat3.html"]{
-  background-color: rgb(131, 243, 111, 0.5);
+  background-color: rgb(131, 243, 111, 0.4);
 }
 
 a[href^="cat4.html"] {
-  background-color: rgb(243, 111, 192, 0.5);
+  background-color: rgb(243, 111, 192, 0.4);
 }
 
 a[href^="index.html"]:hover {
@@ -121,12 +96,25 @@ a[href^="cat4.html"]:hover {
 }
 
 .audio-container {
-  position: fixed;
+  position: relative;
+  height: 100vh;                                                        
+}
+
+.img [src] {
+  /* changed: center inside .audio-container */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* keep stacking control as needed */
+  z-index: 0;
 }
 
 .audio1:hover, .audio2:hover, .audio3:hover, .audio4:hover, .audio5:hover, .audio6:hover, .audio7:hover, .audio8:hover, .audio9:hover, .audio10:hover, .audio11:hover, .audio12:hover, .audio13:hover, .audio14:hover, .audio15:hover, .audio16:hover, .audio17:hover, .audio18:hover, .audio19:hover, .audio20:hover {
   margin-top: 20px;
   transition: all 1s ease;
+  transform: translateZ(50px);
+  margin-top: -150px;
 }
 
 .audio1, .audio2, .audio3, .audio4, .audio5 {
@@ -165,7 +153,7 @@ a[href^="cat4.html"]:hover {
   width: 750px;
   height: 750px;
   margin-left: 420px;
-  z-index: -1000;
+  z-index: 150;
   margin-top: 125px;
 }
 
@@ -199,4 +187,61 @@ a[href^="cat4.html"]:hover {
   margin-left: 150px;
   z-index: 2000;
   margin-top: 525px;
+}
+
+h2 {
+  position: fixed;
+  color: whitesmoke;
+  font-family: "BIZ UDGothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.5px;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 450px;
+  z-index: -1000;
+}
+
+h3 {
+  position: fixed;
+  color: whitesmoke;
+  font-family: "BIZ UDGothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.5px;
+  font-size: 30px;
+  margin-left: 800px;
+  margin-top: 100px;
+  z-index: -1000;
+}
+
+#img1, #img6, #img11, #img16 {
+  width: 700px;
+  height: auto;
+  margin-left: 25px;
+
+}
+
+#img2, #img7,#img12, #img17 {
+  width: 850px;
+  height: auto;
+  margin-left: 25px;
+}
+
+#img3, #img8, #img13, #img18 {
+  width: 950px;
+  height: auto;
+  margin-left: 25px; 
+}
+
+#img4, #img9, #img14, #img19 {
+  width: 1090px;
+  height: auto;
+  margin-left: 25px; 
+}
+
+#img5, #img10, #img15, #img20 {
+  width: 1220px;
+  height: auto;
+  margin-left: 35px;
 }
