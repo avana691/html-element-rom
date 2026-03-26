@@ -106,19 +106,6 @@ audio {
   top: 0;
   left: 0;
 }
-
-/* ALBUM ON TOP */
-.album-img1 {
-  position: absolute;
-  width: 750px;
-  height: 750px;
-  margin-left: 420px;
-  margin-top: 125px;
-  z-index: 3000;            /* higher than the .audio z-index values */
-  pointer-events: auto;
-  transform: translateZ(0);
-}
-
 .album-img {
   z-index: 10;
   cursor: pointer;
@@ -130,7 +117,7 @@ audio {
   pointer-events: none;
 }
 
-.audio1:hover .album-img,
+/*.audio1:hover .album-img,
 .audio2:hover .album-img,
 .audio3:hover .album-img,
 .audio4:hover .album-img,
@@ -152,7 +139,7 @@ audio {
 .audio20:hover .album-img {
   opacity: 0;
   pointer-events: none;
-}
+}*/
 
 
 .audio1:hover, .audio2:hover, .audio3:hover, .audio4:hover, .audio5:hover, .audio6:hover, .audio7:hover, .audio8:hover, .audio9:hover, .audio10:hover, .audio11:hover, .audio12:hover, .audio13:hover, .audio14:hover, .audio15:hover, .audio16:hover, .audio17:hover, .audio18:hover, .audio19:hover, .audio20:hover {
