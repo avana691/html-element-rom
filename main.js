@@ -7,9 +7,8 @@ containers.forEach(container => {
   audio.volume = 1;
 
   img.addEventListener("click", () => {
-
-    // stop all other audios + remove their rotation
-    document.querySelectorAll(".audio-container > div").forEach(c => {
+    // Stop all other audios + remove their rotation
+    containers.forEach(c => {
       const a = c.querySelector("audio");
       const i = c.querySelector("img");
 
@@ -20,17 +19,17 @@ containers.forEach(container => {
       }
     });
 
-    // toggle play
+    // Toggle play
     if (audio.paused) {
       audio.play();
-      img.classList.add("playing");   // start spinning
+      img.classList.add("playing"); // Start spinning
     } else {
       audio.pause();
-      img.classList.remove("playing"); // stop spinning
+      img.classList.remove("playing"); // Stop spinning
     }
   });
 
-  // ALSO stop spinning if audio ends naturally
+  // Stop spinning if audio ends naturally
   audio.addEventListener("ended", () => {
     img.classList.remove("playing");
   });
