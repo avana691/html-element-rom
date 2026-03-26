@@ -130,6 +130,31 @@ audio {
   pointer-events: none;
 }
 
+.audio1:hover .album-img,
+.audio2:hover .album-img,
+.audio3:hover .album-img,
+.audio4:hover .album-img,
+.audio5:hover .album-img,
+.audio6:hover .album-img,
+.audio7:hover .album-img,
+.audio8:hover .album-img,
+.audio9:hover .album-img,
+.audio10:hover .album-img,
+.audio11:hover .album-img,
+.audio12:hover .album-img,
+.audio13:hover .album-img,
+.audio14:hover .album-img,
+.audio15:hover .album-img,
+.audio16:hover .album-img,
+.audio17:hover .album-img,
+.audio18:hover .album-img,
+.audio19:hover .album-img,
+.audio20:hover .album-img {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
 .audio1:hover, .audio2:hover, .audio3:hover, .audio4:hover, .audio5:hover, .audio6:hover, .audio7:hover, .audio8:hover, .audio9:hover, .audio10:hover, .audio11:hover, .audio12:hover, .audio13:hover, .audio14:hover, .audio15:hover, .audio16:hover, .audio17:hover, .audio18:hover, .audio19:hover, .audio20:hover {
   margin-top: 20px;
   transition: all 1s ease;
@@ -276,7 +301,7 @@ h3 {
   }
 }
 
-/* Class added when audio is playing */
+/* spin */
 .playing {
   animation: spin 10s linear infinite;
 }
