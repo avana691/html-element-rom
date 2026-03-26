@@ -95,19 +95,39 @@ a[href^="cat4.html"]:hover {
   padding: 10px;
 }
 
-.audio-container {
-  position: relative;
-  height: 100vh;                                                        
+audio {
+  display: none;
+}
+.audio-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
 }
 
-.img [src] {
-  /* changed: center inside .audio-container */
+/* ALBUM ON TOP */
+.album-img1 {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* keep stacking control as needed */
-  z-index: 0;
+  width: 750px;
+  height: 750px;
+  margin-left: 420px;
+  margin-top: 125px;
+  z-index: 3000;            /* higher than the .audio z-index values */
+  pointer-events: auto;
+  transform: translateZ(0);
+}
+
+.album-img {
+  z-index: 10;
+  cursor: pointer;
+  transition: opacity 0.4s ease;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .audio1:hover, .audio2:hover, .audio3:hover, .audio4:hover, .audio5:hover, .audio6:hover, .audio7:hover, .audio8:hover, .audio9:hover, .audio10:hover, .audio11:hover, .audio12:hover, .audio13:hover, .audio14:hover, .audio15:hover, .audio16:hover, .audio17:hover, .audio18:hover, .audio19:hover, .audio20:hover {
