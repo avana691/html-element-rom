@@ -95,6 +95,12 @@ a[href^="cat4.html"]:hover {
   padding: 10px;
 }
 
+.audio-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 audio {
   display: none;
 }
@@ -103,8 +109,7 @@ audio {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  top: 0;
-  left: 0;
+
 }
 .album-img {
   z-index: 10;
@@ -184,7 +189,6 @@ audio {
 .audio1, .audio6, .audio11, .audio16 {
   width: 750px;
   height: 750px;
-  margin-left: 420px;
   z-index: 150;
   margin-top: 125px;
 }
@@ -192,7 +196,6 @@ audio {
 .audio2, .audio7, .audio12, .audio17 {
   width: 900px;
   height: 900px;
-  margin-left: 350px;
   z-index: 200;
   margin-top: 225px;
 }
@@ -200,7 +203,6 @@ audio {
 .audio3, .audio8, .audio13, .audio18 {
   width: 1000px;
   height: 1000px;
-  margin-left: 300px;
   z-index: 600;
   margin-top: 325px;
 }
@@ -208,7 +210,6 @@ audio {
 .audio4, .audio9, .audio14, .audio19 {
   width: 1150px;
   height: 1150px;
-  margin-left: 220px;
   z-index: 1000;
   margin-top: 425px;
 }
@@ -216,7 +217,6 @@ audio {
 .audio5, .audio10, .audio15, .audio20 {
   width: 1300px;
   height: 1300px;
-  margin-left: 150px;
   z-index: 2000;
   margin-top: 525px;
 }
